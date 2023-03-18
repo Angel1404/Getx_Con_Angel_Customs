@@ -18,3 +18,7 @@ export 'package:get_con_angel01/ui/pages/APP-LIBROS-U/create_libro.dart';
 export 'package:get_con_angel01/ui/pages/APP-LIBROS-U/ver_libros.dart';
 
 export 'package:get_con_angel01/ui/pages/APP-LIBROS-U/detalle_libro.dart';
+
+//
+
+export 'package:get_con_angel01/ui/pages/RETO2-LOGIN-CARD-FLEXIBLE/login_card_flexible_page.dart';

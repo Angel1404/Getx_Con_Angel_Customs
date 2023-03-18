@@ -23,4 +23,8 @@ abstract class Routes {
   static const VERLIBROSPAGE = '/verLibrosPage';
   // ignore: constant_identifier_names
   static const DETALLELIBROPAGE = '/detalleLibroPage';
+
+  //
+  // ignore: constant_identifier_names
+  static const LOGINCARDFLEXIBLEPAGE = '/loginCardFlexiblePage';
 }

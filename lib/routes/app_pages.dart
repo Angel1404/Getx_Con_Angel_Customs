@@ -39,7 +39,7 @@ abstract class AppPages {
     ),
     GetPage(
       name: Routes.CREARLIBROSPAGE,
-      page: () => CreateLibrosPage(),
+      page: () => const CreateLibrosPage(),
       binding: AppLibrosBinding(),
     ),
     GetPage(
@@ -50,6 +50,13 @@ abstract class AppPages {
     GetPage(
       name: Routes.DETALLELIBROPAGE,
       page: () => DetalleLibroPage(),
+    ),
+
+    //
+    GetPage(
+      name: Routes.LOGINCARDFLEXIBLEPAGE,
+      page: () => LoginCardFlexiblePage(),
+      binding: LoginCardFlexibleBinding(),
     ),
   ];
 }

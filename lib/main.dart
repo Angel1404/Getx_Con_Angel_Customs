@@ -9,7 +9,7 @@ void main() async {
   runApp(
     GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: Routes.APPLIBROSSREEN,
+      initialRoute: Routes.LOGINCARDFLEXIBLEPAGE,
       // theme: appThemeData,
       defaultTransition: Transition.fadeIn,
       // initialBinding: SplashBinding(),

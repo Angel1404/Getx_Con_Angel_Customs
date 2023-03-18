@@ -1,6 +1,7 @@
 import 'package:get/get.dart';
 import 'package:get_con_angel01/ui/pages/APP-LIBROS-U/app_libros_controller.dart';
 import 'package:get_con_angel01/ui/pages/RETO1-SLIDERIMAGES/slider_image_controler.dart';
+import 'package:get_con_angel01/ui/pages/RETO2-LOGIN-CARD-FLEXIBLE/login_card_flexible_controller.dart';
 import 'package:get_con_angel01/ui/pages/VIDEO-AND-PHOTO-EDITOR/video_photo_editor_controller.dart';
 
 class SliderImageBinding implements Bindings {
@@ -23,5 +24,12 @@ class AppLibrosBinding implements Bindings {
   @override
   void dependencies() {
     Get.lazyPut<AppLibrosController>(() => AppLibrosController(), fenix: true);
+  }
+}
+
+class LoginCardFlexibleBinding implements Bindings {
+  @override
+  void dependencies() {
+    Get.lazyPut<LoginCardFlexibleController>(() => LoginCardFlexibleController());
   }
 }
